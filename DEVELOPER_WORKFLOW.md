@@ -1,13 +1,13 @@
-# Todo App - Developer Workflow Guide
+# Task Manager App - Developer Workflow Guide
 
-This document outlines the development workflow for the React Redux TypeScript Todo Application, providing step-by-step instructions for common development tasks.
+This document outlines the development workflow for the React Redux TypeScript Task Manager Application, providing step-by-step instructions for common development tasks.
 
 ## Development Environment Setup
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/SakshamChouhan/todo-app.git
-   cd todo-app
+   git clone https://github.com/SakshamChouhan/task-manager.git
+   cd task-manager
    ```
 
 2. **Install dependencies**
