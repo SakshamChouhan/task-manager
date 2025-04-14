@@ -1,6 +1,6 @@
-# React Redux TypeScript Todo Application
+# Task Manager Application
 
-A modern, full-stack todo application built with React, Redux, TypeScript, and MongoDB. This application features user authentication, complete CRUD operations for todo items, and a responsive UI.
+A modern, full-stack Task Manager application built with React, Redux, TypeScript, and MongoDB. This application features user authentication, complete CRUD operations for todo items, and a responsive UI.
 
 ![Todo App Screenshot](images/dashboard.png)
 
@@ -12,11 +12,11 @@ A modern, full-stack todo application built with React, Redux, TypeScript, and M
   - Password encryption with bcrypt
   - Protected routes for authenticated users
 
-- **Todo Management**
-  - Create, read, update, and delete todos
-  - Mark todos as complete/incomplete
-  - Filter todos by status (all/completed/incomplete)
-  - Search todos by title
+- **Task Manager Management**
+  - Create, read, update, and delete Tasks
+  - Mark taks as complete/incomplete
+  - Filter tasks by status (all/completed/incomplete)
+  - Search tasks by title
   - Pagination for better performance with large lists
 
 - **Modern UI**
@@ -96,15 +96,15 @@ server/
 5. Token is included in subsequent API requests
 6. Protected routes/resources check token validity
 
-### Todo Operations Flow
+### Task Manager Operations Flow
 
-1. **Create Todo**:
-   - User submits new todo form
+1. **Create Tasks**:
+   - User submits new Task Manager form
    - Client sends POST request to `/api/todos`
    - Server creates todo in MongoDB
-   - UI updates with new todo
+   - UI updates with new task
 
-2. **Read Todos**:
+2. **Read Tasks**:
    - Client sends GET request to `/api/todos`
    - Server fetches todos for the authenticated user
    - UI displays todos with pagination
@@ -115,11 +115,11 @@ server/
    - Server updates todo in MongoDB
    - UI updates with modified todo
 
-4. **Delete Todo**:
-   - User confirms todo deletion
+4. **Delete Tasks**:
+   - User confirms tasks deletion
    - Client sends DELETE request to `/api/todos/:id`
-   - Server removes todo from MongoDB
-   - UI removes todo from list
+   - Server removes tasks from MongoDB
+   - UI removes tasks from list
 
 ## 🚀 Getting Started
 
@@ -132,8 +132,8 @@ server/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/SakshamChouhan/todo-app.git
-   cd todo-app
+   git clone https://github.com/SakshamChouhan/task-manager.git
+   cd task-manager
    ```
 
 2. Install dependencies:
@@ -188,8 +188,8 @@ The application is designed to work across multiple device sizes:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/SakshamChouhan/todo-app.git
-   cd todo-app
+   git clone https://github.com/SakshamChouhan/task-manager.git
+   cd task-manager
 
    ```
 
