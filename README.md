@@ -2,7 +2,9 @@
 
 A modern, full-stack Task Manager application built with React, Redux, TypeScript, and MongoDB. This application features user authentication, complete CRUD operations for todo items, and a responsive UI.
 
-![Todo App Screenshot](images/dashboard.png)
+![Task App Screenshot](images/dashboard.png)
+![Task App Screenshot](images/insight.png)
+![Task App Screenshot](images/application.png)
 
 ## 📋 Features
 
