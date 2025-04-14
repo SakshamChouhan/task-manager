@@ -1,8 +1,8 @@
-# Todo App - Technical Architecture Document
+# Task Manager App - Technical Architecture Document
 
 ## Project Overview
 
-This document provides a technical overview of the React Redux TypeScript Todo Application, describing the system architecture, data flow, and implementation details for developers working on the project.
+This document provides a technical overview of the Task Manager Application, describing the system architecture, data flow, and implementation details for developers working on the project.
 
 ## System Architecture
 
@@ -179,7 +179,7 @@ store
 }
 ```
 
-### Todo Collection
+### Tasks Collection
 
 ```javascript
 {
@@ -199,7 +199,7 @@ store
 - `POST /api/auth/login` - Authenticate a user
 - `GET /api/auth/me` - Get the current authenticated user
 
-### Todo Endpoints
+### Tasks Endpoints
 
 - `GET /api/todos` - Get all todos for the authenticated user
 - `POST /api/todos` - Create a new todo
