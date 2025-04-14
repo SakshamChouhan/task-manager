@@ -109,7 +109,7 @@ server/
    - Server fetches todos for the authenticated user
    - UI displays todos with pagination
 
-3. **Update Todo**:
+3. **Update Tasks**:
    - User edits todo or toggles completion status
    - Client sends PUT request to `/api/todos/:id`
    - Server updates todo in MongoDB
